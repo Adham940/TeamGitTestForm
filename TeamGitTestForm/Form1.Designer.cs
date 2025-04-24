@@ -31,15 +31,15 @@
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
+            label4 = new Label();
             checkBox1 = new CheckBox();
-            checkBox2 = new CheckBox();
             SuspendLayout();
             // 
             // label1
             // 
             label1.AutoSize = true;
-            label1.Location = new Point(106, 45);
-            label1.Margin = new Padding(6, 0, 6, 0);
+            label1.Location = new Point(107, 46);
+            label1.Margin = new Padding(5, 0, 5, 0);
             label1.Name = "label1";
             label1.Size = new Size(130, 41);
             label1.TabIndex = 0;
@@ -48,8 +48,8 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Location = new Point(742, 271);
-            label2.Margin = new Padding(6, 0, 6, 0);
+            label2.Location = new Point(107, 113);
+            label2.Margin = new Padding(5, 0, 5, 0);
             label2.Name = "label2";
             label2.Size = new Size(122, 41);
             label2.TabIndex = 1;
@@ -58,43 +58,44 @@
             // label3
             // 
             label3.AutoSize = true;
-            label3.Location = new Point(1157, 403);
+            label3.Location = new Point(107, 186);
+            label3.Margin = new Padding(2, 0, 2, 0);
             label3.Name = "label3";
             label3.Size = new Size(114, 41);
             label3.TabIndex = 2;
             label3.Text = "Ahmed";
             // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Location = new Point(141, 263);
+            label4.Margin = new Padding(7, 0, 7, 0);
+            label4.Name = "label4";
+            label4.Size = new Size(113, 41);
+            label4.TabIndex = 3;
+            label4.Text = "Adham";
+            // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(850, 526);
+            checkBox1.Location = new Point(973, 466);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(34, 33);
-            checkBox1.TabIndex = 3;
+            checkBox1.Size = new Size(197, 45);
+            checkBox1.TabIndex = 4;
+            checkBox1.Text = "checkBox1";
             checkBox1.UseVisualStyleBackColor = true;
-            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
-            // 
-            // checkBox2
-            // 
-            checkBox2.AutoSize = true;
-            checkBox2.Location = new Point(852, 650);
-            checkBox2.Name = "checkBox2";
-            checkBox2.Size = new Size(197, 45);
-            checkBox2.TabIndex = 4;
-            checkBox2.Text = "checkBox2";
-            checkBox2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1700, 922);
-            Controls.Add(checkBox2);
+            ClientSize = new Size(1700, 921);
             Controls.Add(checkBox1);
+            Controls.Add(label4);
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Margin = new Padding(6);
+            Margin = new Padding(5, 5, 5, 5);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -107,7 +108,8 @@
         private Label label1;
         private Label label2;
         private Label label3;
+
+        private Label label4;
         private CheckBox checkBox1;
-        private CheckBox checkBox2;
     }
 }
