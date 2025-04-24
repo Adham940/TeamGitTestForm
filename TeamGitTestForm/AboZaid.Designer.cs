@@ -29,24 +29,37 @@
         private void InitializeComponent()
         {
             checkBox1 = new CheckBox();
+            label1 = new Label();
             SuspendLayout();
             // 
             // checkBox1
             // 
             checkBox1.AutoSize = true;
-            checkBox1.Location = new Point(368, 213);
+            checkBox1.Location = new Point(152, 88);
+            checkBox1.Margin = new Padding(1, 1, 1, 1);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(197, 45);
+            checkBox1.Size = new Size(87, 21);
             checkBox1.TabIndex = 0;
             checkBox1.Text = "checkBox1";
             checkBox1.UseVisualStyleBackColor = true;
             // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Location = new Point(207, 49);
+            label1.Name = "label1";
+            label1.Size = new Size(43, 17);
+            label1.TabIndex = 1;
+            label1.Text = "label1";
+            // 
             // AboZaid
             // 
-            AutoScaleDimensions = new SizeF(17F, 41F);
+            AutoScaleDimensions = new SizeF(7F, 17F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(800, 450);
+            ClientSize = new Size(329, 187);
+            Controls.Add(label1);
             Controls.Add(checkBox1);
+            Margin = new Padding(1, 1, 1, 1);
             Name = "AboZaid";
             Text = "AboZaid";
             ResumeLayout(false);
@@ -56,5 +69,6 @@
         #endregion
 
         private CheckBox checkBox1;
+        private Label label1;
     }
 }
