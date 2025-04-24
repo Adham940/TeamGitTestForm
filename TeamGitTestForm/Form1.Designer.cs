@@ -32,6 +32,7 @@
             label2 = new Label();
             label3 = new Label();
             checkBox1 = new CheckBox();
+            checkBox2 = new CheckBox();
             SuspendLayout();
             // 
             // label1
@@ -68,16 +69,27 @@
             checkBox1.AutoSize = true;
             checkBox1.Location = new Point(850, 526);
             checkBox1.Name = "checkBox1";
-            checkBox1.Size = new Size(197, 45);
+            checkBox1.Size = new Size(34, 33);
             checkBox1.TabIndex = 3;
-            checkBox1.Text = "checkBox1";
             checkBox1.UseVisualStyleBackColor = true;
+            checkBox1.CheckedChanged += checkBox1_CheckedChanged;
+            // 
+            // checkBox2
+            // 
+            checkBox2.AutoSize = true;
+            checkBox2.Location = new Point(852, 650);
+            checkBox2.Name = "checkBox2";
+            checkBox2.Size = new Size(197, 45);
+            checkBox2.TabIndex = 4;
+            checkBox2.Text = "checkBox2";
+            checkBox2.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(1700, 922);
+            Controls.Add(checkBox2);
             Controls.Add(checkBox1);
             Controls.Add(label3);
             Controls.Add(label2);
@@ -96,5 +108,6 @@
         private Label label2;
         private Label label3;
         private CheckBox checkBox1;
+        private CheckBox checkBox2;
     }
 }
