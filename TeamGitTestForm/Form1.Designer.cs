@@ -28,24 +28,49 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblAHMED = new Label();
+            label1 = new Label();
+            label2 = new Label();
+            label3 = new Label();
             SuspendLayout();
             // 
-            // lblAHMED
+            // label1
             // 
-            lblAHMED.AutoSize = true;
-            lblAHMED.Location = new Point(461, 258);
-            lblAHMED.Name = "lblAHMED";
-            lblAHMED.Size = new Size(114, 41);
-            lblAHMED.TabIndex = 0;
-            lblAHMED.Text = "Ahmed";
+            label1.AutoSize = true;
+            label1.Location = new Point(106, 45);
+            label1.Margin = new Padding(6, 0, 6, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(130, 41);
+            label1.TabIndex = 0;
+            label1.Text = "Tameem";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Location = new Point(742, 271);
+            label2.Margin = new Padding(6, 0, 6, 0);
+            label2.Name = "label2";
+            label2.Size = new Size(122, 41);
+            label2.TabIndex = 1;
+            label2.Text = "Hussein";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Location = new Point(1157, 403);
+            label3.Name = "label3";
+            label3.Size = new Size(114, 41);
+            label3.TabIndex = 2;
+            label3.Text = "Ahmed";
             // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(17F, 41F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1099, 695);
-            Controls.Add(lblAHMED);
+            ClientSize = new Size(1700, 922);
+            Controls.Add(label3);
+            Controls.Add(label2);
+            Controls.Add(label1);
+            Margin = new Padding(6, 6, 6, 6);
             Name = "Form1";
             Text = "Form1";
             ResumeLayout(false);
@@ -54,6 +79,9 @@
 
         #endregion
 
-        private Label lblAHMED;
+
+        private Label label1;
+        private Label label2;
+        private Label label3;
     }
 }
